@@ -1,7 +1,7 @@
 package com.gabrielxavier.course.resources;
 
-import com.gabrielxavier.course.entities.User;
-import com.gabrielxavier.course.services.UserService;
+import com.gabrielxavier.course.entities.Product;
+import com.gabrielxavier.course.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,21 +12,21 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "/users")
-public class UserResources {
+@RequestMapping(value = "/products")
+public class ProductResource {
 
     @Autowired
-    private UserService userService;
+    private ProductService productService;
 
     @GetMapping
-    public ResponseEntity<List<User>> findAll() {
-        List<User> list = userService.findAll();
+    public ResponseEntity<List<Product>> findAll() {
+        List<Product> list = productService.findAll();
         return ResponseEntity.ok().body(list);
     }
 
     @GetMapping(value = "/{id}")
-    public ResponseEntity<User> findById(@PathVariable(value = "id") Long id) {
-        User obj = userService.findById(id);
+    public ResponseEntity<Product> findById(@PathVariable(value = "id") Long id) {
+        Product obj = productService.findById(id);
         return ResponseEntity.ok().body(obj);
     }
 }
