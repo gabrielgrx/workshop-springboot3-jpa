@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-WorkShop SpringBoot3 JPA é uma projeto Web Services com Spring Boot e JPA/Hibernate construído durante o curso **Java COMPLETO Programação Orientada a Objetos +Projetos**, curso de java organizado pela [DevSuperior](https://www.udemy.com/course/java-curso-completo/) na plataforma UDEMY.
+WorkShop SpringBoot3 JPA é um projeto de Web Services com Spring Boot e JPA/Hibernate construído durante o curso **Java COMPLETO Programação Orientada a Objetos +Projetos**, curso de java organizado pela [DevSuperior](https://www.udemy.com/course/java-curso-completo/) na plataforma [UDEMY](https://www.udemy.com/course/java-curso-completo/).
 
 ## Os objetivos propostos para este projeto são:
 - Criar projeto Spring Boot Java
