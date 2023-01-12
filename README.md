@@ -21,6 +21,7 @@ WorkShop SpringBoot3 JPA é um projeto de Web Services com Spring Boot e JPA/Hib
 - JPA / Hibernate
 - Maven
 - H2 Database
+- MySQL
 - Postman
 - JSON
 
